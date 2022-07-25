@@ -1,6 +1,17 @@
 /* CUSTOM-PROPS */
 :root {
-
+  /* COLORS  */
+  --blue: #666CA3;
+  --dark-blue: #13183F;
+  --gray: #83869A;
+  --pink: #F74780;
+  --light-pink: #FFA7C3;
+  --white: #fff;
+  
+  /* GRADIENTS */
+  --red-gradients: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  --blue-gradients: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+  --body-gradients: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 
 /* FONT-FACE  */
@@ -24,7 +35,7 @@ body {
   flex-direction: column;
   height: 100%;
   background-color: #fff;
-  color: #222;
+  color: var(--gray);
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -40,16 +51,16 @@ img {
 
 /* FOCUS-STYLES  */
 *:focus {
-  outline: 3px dashed var(black);
+  outline: 3px dashed var(--dark-blue);
   outline-offset: 3px;
 }
 
 /* CONTAINER  */
 .container {
-  max-width: 1200px;
+  max-width: 1150px;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
