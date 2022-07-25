@@ -15,6 +15,42 @@
 }
 
 /* FONT-FACE  */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/PlusJakartaSans-ExtraBold.woff2") format("woff2"),
+      url("/fonts/PlusJakartaSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/PlusJakartaSans-Regular.woff2") format("woff2"),
+      url("/fonts/PlusJakartaSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/PlusJakartaSans-Medium.woff2") format("woff2"),
+      url("/fonts/PlusJakartaSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/PlusJakartaSans-Bold.woff2") format("woff2"),
+      url("/fonts/PlusJakartaSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 
 /* GLOBAL-STYLES  */
@@ -36,9 +72,10 @@ body {
   height: 100%;
   background-color: #fff;
   color: var(--gray);
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Plus Jakarta Sans", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
   padding: 0;
   margin: 0;
 }
