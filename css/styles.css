@@ -169,6 +169,17 @@ img {
   transition: background-color 0.3s ease;
 }
 
+.button--dark {
+  margin-left: 831px;
+  border-radius: 28px;
+  background-image: var(--blue-gradients);
+  margin-top: -3px;
+}
+
+.button--dark:hover{
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
 /* CARD  */
 .card {
   z-index: 10;
@@ -325,6 +336,120 @@ img {
   min-height: 560px;
   background-color: var(--pink);
   background-image: var(--red-gradients);
+}
+
+
+/* HERO-LIST */
+.hero__info{
+  margin-top: -16px;
+  margin-bottom: -40px;
+}
+
+.box-1{
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.box-2{
+  display: flex;
+}
+
+.hero__list {
+  margin-bottom: 147px;
+  margin-top: -131px;
+  margin-left: 19px;
+  list-style: none;
+  padding: 0;
+}
+
+.hero__item--bg {
+  background: var(--red-gradients);
+}
+
+.hero__heading-bg {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 33px;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.hero__item {
+  margin-left: 5px;
+  transform: translateY(67px) 
+  translateX(-21px);
+  background-color: #fff;
+  display: block;
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 5%);
+}
+
+.hero__item:not(:last-child){
+  margin-right: 30px;
+}
+
+.hero__heading {
+  margin-left: 32px;
+  /* margin-top: 64px; */
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 800;
+  color: var(--dark-blue);
+}
+
+.hero__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--gray);
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.hero__link-item {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: var(--pink);
+  margin-left: 32px;
+}
+
+.hero__link-item:hover{
+  color: var(--light-pink);
+}
+
+.hero__link-item:hover{
+  opacity: 0.8;
+}
+
+.hero__img-icon{
+  display: block;
+  margin-left: 32px;
+  transform: translateY(-25px);
+}
+
+
+/* FOOTER */
+.footer {
+  margin-top: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--dark-blue);
+}
+
+.footer__links {
+  display: flex;
+}
+
+.footer__link {
+  margin-top: 12px;
+  text-decoration: none;
 }
 
 
